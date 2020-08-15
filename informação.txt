@@ -1,0 +1,19 @@
+Munzambi Miguel
+bloco de anotações da ferramenta react native
+
+
+criando um projecto react native
+-----------------------------------------------
+npx create-react-app frontend
+
+
+conceito de propriedade
+
+
+
+
+criando um projecto node.js
+-----------------------------------------------
+npm node init -y
+
+
