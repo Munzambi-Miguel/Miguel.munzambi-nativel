@@ -2,7 +2,7 @@ const express = require('express');
 const { response } = require('express');
 
 const app = express();
-app.use(express.json); // informar que passaremos a usar o json nas requisições
+app.use(express.json()); // informar que passaremos a usar o json nas requisições
 
 app.get('/', (require, response) => {
     return response.json({
@@ -11,7 +11,7 @@ app.get('/', (require, response) => {
     })
 });
 
-app.listen(33); // port da requisição ouvinte
+app.listen(3333); // port da requisição ouvinte
 
 
 /**
