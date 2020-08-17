@@ -1,13 +1,14 @@
 import React from 'react';
-import Login from './pages/Login';
+import "./main.css"
+import Routes from './routes';
 
 // conceito de JSX javaScript retornando um XML
 
-function App() {
+export default function App() {
 
   return (
-    <Login />
+    <Routes />
   );
 }
 
-export default App;
+//export default App;
