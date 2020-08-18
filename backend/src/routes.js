@@ -1,14 +1,11 @@
 const express = require('express');
-
-
 const routes = express.Router();
-routes.post('/users',(require, response)=>{
-  return  response.json(
-    {
-      eventos:'semana OminiSteck 11',
-      aluno: 'munzambi ntemo miguel'
-    }
-  );
-});
+const OngsController = require('./controllers/OngsController');
+
+
+routes.get('/ongs',OngsController.index );
+
+
+routes.post('/ongs', OngsController.create);
 
 module.exports = routes;
